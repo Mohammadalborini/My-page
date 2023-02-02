@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $db_host = 'sql202.epizy.com';
 $db_user = 'epiz_33505234';
