@@ -1,9 +1,9 @@
-<?php 
+<?php
 
-$db_host = 'localhost';
-$db_user = 'root';
-$db_pass = '';
-$db_name = 'task28';
+$db_host = 'sql202.epizy.com';
+$db_user = 'epiz_33505234';
+$db_pass = 'M6xlx2Z6Pc';
+$db_name = 'epiz_33505234_Mypage';
 
 //connect to db
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
