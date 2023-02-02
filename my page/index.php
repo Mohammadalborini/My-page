@@ -88,7 +88,7 @@ session_start();
 					<nav class="navbar navbar-expand-lg navbar-light">
 						<div class="container">
 							<!-- Brand and toggle get grouped for better mobile display -->
-							<a class="navbar-brand logo_h" href="indexs.php?id=0"><img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['icon']); ?>" style="
+							<a class="navbar-brand logo_h" href="index.php?id=0"><img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['icon']); ?>" style="
 							width: 100px;
 							height: 100px;
 							background-position: -25px -20px;
@@ -103,11 +103,12 @@ session_start();
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 								<ul class="nav navbar-nav menu_nav justify-content-end">
-									<li class="nav-item active"><a class="nav-link" href="indexs.php?id=0">Home</a></li>
+									<li class="nav-item active"><a class="nav-link" href="index.php?id=0">Home</a></li>
 									<li class="nav-item"><a class="nav-link" href="?id=0#about_us">About</a></li>
 									<li class="nav-item"><a class="nav-link" href="?id=0#service">Services</a></li>
 									<li class="nav-item"><a class="nav-link" href="?id=0#Business-summary">Business summary</a></li>
 									<li class="nav-item"><a class="nav-link" href="?id=0#Contact">Contact</a></li>
+									<li class="nav-item"><a class="nav-link" href="admin/index.php">Admin site</a></li>
 								</ul>
 							</div>
 						</div>
@@ -334,27 +335,27 @@ session_start();
 					<?php if ($_GET == null) {
 						$_GET['id'] = 0;
 					}  ?>
-					<a href="indexs.php?id=0#portfolio">
+					<a href="index.php?id=0#portfolio">
 						<li <?php if ($_GET['id'] == 0) {
 								echo 'class="active" ';
 							} ?>>all</li>
 					</a>
-					<a href="indexs.php?id=1#portfolio">
+					<a href="index.php?id=1#portfolio">
 						<li <?php if ($_GET['id'] == 1) {
 								echo 'class="active" ';
 							} ?>>Projects</li>
 					</a>
-					<a href="indexs.php?id=2#portfolio">
+					<a href="index.php?id=2#portfolio">
 						<li <?php if ($_GET['id'] == 2) {
 								echo 'class="active" ';
 							} ?>>Mysql Database </li>
 					</a>
-					<a href="indexs.php?id=3#portfolio">
+					<a href="index.php?id=3#portfolio">
 						<li <?php if ($_GET['id'] == 3) {
 								echo 'class="active" ';
 							} ?>>Code</li>
 					</a>
-					<a href="indexs.php?id=4#portfolio">
+					<a href="index.php?id=4#portfolio">
 						<li <?php if ($_GET['id'] == 4) {
 								echo 'class="active" ';
 							} ?>>Design</li>

@@ -18,6 +18,7 @@
         </br>
         <button type="submit" id="mail-submit" name="submit">Enter</button>
         <p class="form-message"></p>
+        <a href="../index.php">Go back to website</a>
     </form>
 </body>
 
