@@ -114,6 +114,12 @@
               <p>footer section</p>
             </a>
           </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./Logout.php">
+              <i class="material-icons">content_paste</i>
+              <p>Logout</p>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
