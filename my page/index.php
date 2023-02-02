@@ -1,6 +1,6 @@
 <?php
 
-include("db_config.php");
+include("admin/includes/db_config.php");
 session_start();
 ?>
 
